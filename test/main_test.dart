@@ -6,7 +6,7 @@ void main() {
   testWidgets('MyApp renders correctly', (WidgetTester tester) async {
     await tester.pumpWidget(MyApp());
     //Sasdas
-    final titleFinder = find.text('Flutter App');
+    final titleFinder = find.text('Flutter Ap');
     final textFinder = find.text('Hello, World');
 
     expect(titleFinder, findsOneWidget);
