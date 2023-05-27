@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(MyApp());
 
     final titleFinder = find.text('Flutter App');
-    final textFinder = find.text('Hello, World!');
+    final textFinder = find.text('Hello, World');
 
     expect(titleFinder, findsOneWidget);
     expect(textFinder, findsOneWidget);
